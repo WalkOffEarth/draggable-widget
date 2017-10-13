@@ -1,0 +1,17 @@
+.widget-container {
+    position: relative;
+}
+
+.widget {
+    position: absolute;
+    color: white;
+    border: 1px solid red;
+}
+
+.widget.moving {
+    z-index: z-index + 1;
+}
+
+.widget-placeholder {
+    position: absolute;
+}

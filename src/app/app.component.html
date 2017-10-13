@@ -1,0 +1,7 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div [ngWidgetContainer]="{'limit_to_screen': true, 'cascade':'up'}">
+  <div *ngFor="let widget of widgets" [(ngWidget)]="widget.config">
+      <div class="title">{{widget.title}}</div>
+      <!-- <p>{{widget.title}}</p> -->
+  </div>
+</div>
